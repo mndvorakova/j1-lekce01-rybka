@@ -1,5 +1,5 @@
 # Kámen a rybka
-Upravte program tak, aby rybka po spuštění aplikace obeplavala kám kolem dokola (nebo spíš do čtverce). Třeba takhle:
+Upravte program tak, aby rybka po spuštění aplikace obeplavala kámen kolem dokola (nebo spíš do čtverce). Třeba takhle:
 
 ![Plave ryba dokola](stone-and-fish.gif)
 
