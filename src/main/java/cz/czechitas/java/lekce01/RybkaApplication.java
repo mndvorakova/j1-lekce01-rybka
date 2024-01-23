@@ -34,5 +34,7 @@ public class RybkaApplication extends CzechitasGameApplication {
   protected void onStart() {
     kamen = new Kamen(200, 200);
     rybka = new Rybka(100, 100);
+
+    //TODO tady napište svůj kód
   }
 }
