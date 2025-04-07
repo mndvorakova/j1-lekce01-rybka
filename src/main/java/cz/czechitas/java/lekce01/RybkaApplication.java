@@ -10,6 +10,7 @@ import javafx.scene.paint.Color;
 public class RybkaApplication extends CzechitasGameApplication {
   private Rybka rybka;
   private Kamen kamen;
+  private int steps;
 
   public static void main(String[] args) {
     launch(args);
@@ -36,5 +37,21 @@ public class RybkaApplication extends CzechitasGameApplication {
     rybka = new Rybka(100, 100);
 
     //TODO tady napište svůj kód
+
+    int steps = 20;
+
+    for (int i = 0; i < steps; i++) {
+      rybka.plavatVpravo();
+    }
+    for (int i = 0; i < steps; i++) {
+      rybka.plavatDolu();
+    }
+    for (int i = 0; i < steps; i++) {
+      rybka.plavatVlevo();
+    }
+    for (int i = 0; i < steps; i++) {
+      rybka.plavatNahoru();
+    }
+
   }
 }
